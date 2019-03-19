@@ -135,9 +135,8 @@ def main():
     print(a)
     a.peek()
     print(a)
-
-
-    # checkBrackets("C:\\Users\\tol43\\Desktop\\Python\\case1.txt")
+    fileToCheck = "Path to file you want to check"
+    print(checkBrackets(fileToCheck))
 
     
     
