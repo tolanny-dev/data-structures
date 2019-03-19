@@ -148,29 +148,6 @@ def timesTable():#create an instance of Array, capacity = 10, size = 10
                    ss.setItem(i, ss.getItem(i) + ('%1d * %1d = %2d, ' %(j,i,aa.getItem(j))))
            print(ss[i])
 
-'''
-def main():
-    timesTable()
-    a = Array(10,10,0)
-    print(a)
-    print("After Insert")
-    a.insert(0,0)
-    a.insert(1,1)
-    a.insert(2,2)
-    a.insert(3,3)
-    a.insert(4,4)
-    a.insert(5,5)
-    a.insert(6,6)
-    a.insert(7,7)
-    a.insert(8,8)
-    a.insert(9,9)
-    print(a)
-    print(a[1])
-    print('a.search ', a.search(15))
-    print('Is a full: ', a.isFull())
-    print('Is a empty: ',a.isEmpty())
-'''
-
 def main():
     a = Array(10,10,0)
     print(a)
